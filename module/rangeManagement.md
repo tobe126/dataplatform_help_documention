@@ -12,7 +12,7 @@
 ![9](../assets/img/rangeManagement/operationDetails/9.png)
 ![10](../assets/img/rangeManagement/operationDetails/10.png)
 
-1. 进入值域管理-值域管理模块
+1. 进入值域管理-值域管理页面
 2. 点击新增值域按钮，填写完成信息后点确定按钮可新增值域
 3. 可对值域进行编辑、删除
 4. 点击取值管理按钮，进入取值管理页面
