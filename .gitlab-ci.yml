@@ -14,3 +14,5 @@ pages:
       - public
   only:
     - master
+  tags:
+    - shared' > .gitlab-ci.yml
