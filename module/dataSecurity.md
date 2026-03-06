@@ -34,18 +34,21 @@
 ![5](../assets/img/dataSecurity/operationDetails/accessControl/5.png)
 
 1. 进入数据安全-访问控制页面
-2. 
+2. 选择访问控制类型，进入访问控制列表页面
+3. 点击策略管理按钮，可查看策略清单
 
 ### 安全审计
 ![1](../assets/img/dataSecurity/operationDetails/securityAudit/1.png)
 ![2](../assets/img/dataSecurity/operationDetails/securityAudit/2.png)
-![3](../assets/img/dataSecurity/operationDetails/securityAudit/3.png)
-![4](../assets/img/dataSecurity/operationDetails/securityAudit/4.png)
-![5](../assets/img/dataSecurity/operationDetails/securityAudit/5.png)
+
+1. 进入数据安全-安全审计页面
+2. 点击策略ID，可查看策略详情
+3. 可根据筛选条件搜索
 
 ### 安全区
 ![1](../assets/img/dataSecurity/operationDetails/securityZone/1.png)
 ![2](../assets/img/dataSecurity/operationDetails/securityZone/2.png)
 ![3](../assets/img/dataSecurity/operationDetails/securityZone/3.png)
-![4](../assets/img/dataSecurity/operationDetails/securityZone/4.png)
-![5](../assets/img/dataSecurity/operationDetails/securityZone/5.png)
+
+1. 进入数据安全-安全区页面
+2. 点击+，新建安全区

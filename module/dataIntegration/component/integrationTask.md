@@ -9,6 +9,9 @@
 ![6](../../../assets/img/dataIntegration/operationDetails/integrationTask/6.png)
 ![7](../../../assets/img/dataIntegration/operationDetails/integrationTask/7.png)
 ![8](../../../assets/img/dataIntegration/operationDetails/integrationTask/8.png)
+![23](../../../assets/img/dataIntegration/operationDetails/integrationTask/23.png)
+![24](../../../assets/img/dataIntegration/operationDetails/integrationTask/24.png)
+
 
 1. 进入数据集成-集成任务页面
 2. 创建目录
@@ -16,6 +19,7 @@
 4. 填写任务名称等参数，点击完成，成功创建采集任务
 5. 成功创建任务后，可运行，删除该任务
 6. 点击任务实例，打开新窗口展示该任务的任务实例
+7. 点击编辑，可编辑任务
 
 #### 本地文件类型任务
 
@@ -44,5 +48,3 @@
 ![11](../../../assets/img/dataIntegration/operationDetails/integrationTask/8.png)
 
 #### SFTP文件类型任务
-
-未开发完

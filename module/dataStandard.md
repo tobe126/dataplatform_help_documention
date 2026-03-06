@@ -64,8 +64,6 @@
 ![7](../assets/img/dataStandard/operationDetails/finalizedStandard/7.png)
 ![8](../assets/img/dataStandard/operationDetails/finalizedStandard/8.png)
 ![9](../assets/img/dataStandard/operationDetails/finalizedStandard/9.png)
-![10](../assets/img/dataStandard/operationDetails/finalizedStandard/10.png)
-
 
 1. 进入数据标准-定版标准页面
 2. 选中定版标准目录，点击标准集名称
