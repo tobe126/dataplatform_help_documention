@@ -6,26 +6,97 @@
   <title>数据平台操作指南</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.min.css">
   <style>
-    img{
-      width: 280px;
-      height:280px;
+    img {
+      width: 250px;
+      height: 250px;
     }
-    .sidebar{
+
+    h1 > a {
+      font-weight: 800;
+    }
+
+    .sidebar {
       border: 1px solid #dfdfdf;
     }
-    .markdown-section{
+
+    .sidebar-nav > ul > li > a {
+      font-size: 20px;
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+
+    .sidebar-nav > ul > li > a:hover {
+      background-color: #e8f4fc !important;
+      color: #2980b9 !important;
+      padding-left: 20px !important;
+    }
+
+    .sidebar-nav > ul > li > ul > li > a:hover {
+      background-color: #e8f4fc !important;
+      color: #2980b9 !important;
+      padding-left: 20px !important;
+    }
+
+    .sidebar-nav > ul > li > a.active {
+      background-color: #3498db !important;
+      color: white !important;
+      font-weight: 500 !important;
+      border-radius: 6px;
+      margin: 5px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 8px 16px 8px 20px !important; 
+    }
+
+    .sidebar-nav > ul > li > ul > li > a.active {
+      background-color: #3498db !important;
+      color: white !important;
+      font-weight: 500 !important;
+      border-radius: 6px;
+      margin: 5px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 8px 16px 8px 20px !important;
+    }
+
+    .sidebar-nav > ul > li > a.active:hover {
+      background-color: #3498db !important;
+      color: white !important;
+      padding: 8px 16px 8px 20px !important;
+    }
+
+    .sidebar-nav > ul > li > ul > li > a.active:hover {
+      background-color: #3498db !important;
+      color: white !important;
+      padding: 8px 16px 8px 20px !important;
+    }
+
+    .sidebar-nav > ul > li > ul > li > a {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .markdown-section {
       margin: 0;
       width: 100%;
       max-width: 100%;
     }
+
     .markdown-section a[target="_blank"] {
       font-size: 28px;
-      /* color: #007bff; */
       text-decoration: none;
       font-weight: bold;
     }
+
     .markdown-section a[target="_blank"]:hover {
       text-decoration: underline;
+    }
+    a {
+      padding-left: 10px !important;
     }
   </style>
 </head>

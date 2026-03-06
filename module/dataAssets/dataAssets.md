@@ -1,8 +1,8 @@
 # 数据资产
 
-操作流程总览图
+### 流程总览图
 
-![1](../../../assets/img/dataAssets/dataAssets-overview.png)
+&emsp;![1](../../../assets/img/dataAssets/dataAssets-overview.png)
 
 1. [标签管理](module/dataAssets/component/label.md)
 2. [目录管理](module/dataAssets/component/catalog.md)

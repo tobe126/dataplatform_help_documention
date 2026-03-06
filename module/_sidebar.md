@@ -1,3 +1,105 @@
+<style>
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  cursor: pointer;
+  background-color: transparent !important; 
+  padding: 0; 
+}
+
+.sidebar-nav > ul > li > a {
+  border-radius: 10px;
+  padding-left:10px;
+  display: block;
+  padding: 10px 15px;
+  color: #333333;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.sidebar-nav > ul > li > ul > li > a {
+  border-radius: 10px;
+  padding-left:10px;
+  display: block;
+  padding: 8px 15px 8px 30px;
+  color: #333333;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.sidebar-nav > ul > li > a:hover {
+  border-radius: 10px;
+  padding-left:10px;
+  background-color: #e8f4ff;
+  color: #409eff;
+}
+.sidebar-nav > ul > li > ul > li > a:hover {
+  border-radius: 10px;
+  padding-left:10px;
+  background-color: #e8f4ff;
+  color: #409eff;
+}
+
+.sidebar-nav > ul > li.active > a {
+  border-radius: 10px;
+  padding-left:10px;
+  background-color: #409eff !important;
+  color: #ffffff !important;
+}
+.sidebar-nav > ul > li > ul > li.active > a {
+  border-radius: 10px;
+  padding-left:10px;
+  background-color: #409eff !important;
+  color: #ffffff !important;
+}
+</style>
+
+<script>
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', function() {
+  // 1. 给原有MD列表包裹sidebar-nav容器（让样式生效）
+  const originalUl = document.querySelector('ul');
+  if (originalUl) {
+    const sidebarContainer = document.createElement('div');
+    sidebarContainer.className = 'sidebar-nav';
+    originalUl.parentNode.replaceChild(sidebarContainer, originalUl);
+    sidebarContainer.appendChild(originalUl);
+  }
+
+  // 2. 绑定一级目录点击事件
+  const level1Items = document.querySelectorAll('.sidebar-nav > ul > li');
+  level1Items.forEach(item => {
+    item.addEventListener('click', function(e) {
+      e.stopPropagation(); // 阻止冒泡到父级
+      // 清空所有目录项的选中状态
+      document.querySelectorAll('.sidebar-nav li').forEach(li => {
+        li.classList.remove('active');
+      });
+      // 仅给当前点击的一级目录添加选中样式
+      this.classList.add('active');
+    });
+  });
+
+  // 3. 绑定二级目录点击事件
+  const level2Items = document.querySelectorAll('.sidebar-nav > ul > li > ul > li');
+  level2Items.forEach(item => {
+    item.addEventListener('click', function(e) {
+      e.stopPropagation(); // 阻止冒泡到一级目录
+      // 清空所有目录项的选中状态
+      document.querySelectorAll('.sidebar-nav li').forEach(li => {
+        li.classList.remove('active');
+      });
+      // 仅给当前点击的二级目录添加选中样式
+      this.classList.add('active');
+    });
+  });
+});
+</script>
+
 - [元数据管理](module/meatData.md)
 - [数据标准](module/dataStandard.md)
 - [数据集成](module/dataIntegration/dataIntegration.md)
